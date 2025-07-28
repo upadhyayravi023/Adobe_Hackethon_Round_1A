@@ -41,16 +41,21 @@ ThinkPDF is a sophisticated pipeline that combines **OCR**, **deep learning**, a
 ## 🚀 How to Run
 1. **Clone the Repo**:
    ```bash
-   git clone https://github.com/jhaa108/Adobe-India-Hackathon25.git
-   cd Adobe-India-Hackathon25/round1a
+  https://github.com/upadhyayravi023/Adobe_Hackethon_Round_1A.git
    ```
 2. **Build the Docker Image**:
    ```bash
-   docker build -t thinkpdf-1a .
+ docker build --platform linux/amd64 -t pdf_outline_extractor .
+
    ```
-3. **Run the Solution**:
+3. **Run the container**:
    ```bash
-   docker run --rm -v $(pwd)/input:/input -v $(pwd)/output:/output thinkpdf-1a /input/sample.pdf /output/output.json
+   docker run --rm \
+  -v "$(pwd)/input:/app/input" \
+  -v "$(pwd)/output:/app/output" \
+  --network none \
+  pdf_outline_extractor
+
    ```
 4. **Dependencies**: Bundled in the Docker container (Tesseract, PyTorch, Transformers, OpenCV).
 
