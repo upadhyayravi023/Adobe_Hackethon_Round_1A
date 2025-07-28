@@ -74,4 +74,4 @@ ThinkPDF is a sophisticated pipeline that combines **OCR**, **deep learning**, a
 - Multilingual support (Japanese, Hindi) secures bonus points with flawless execution.
 
 ## 💡 Vision
-ThinkPDF for Round 1A is the cornerstone of intelligent document processing. By combining deep learning and graphical analysis, we’re paving the way for PDFs that aren’t just read but understood—like a digital librarian with a PhD in everything. Stay tuned for Round 2, where we’ll make PDFs sing! 🎶
+ThinkPDF for Round 1A is the cornerstone of intelligent document processing. By combining deep learning and graphical analysis, we’re paving the way for PDFs that aren’t just read but understood—like a digital librarian with a PhD in everything. 
