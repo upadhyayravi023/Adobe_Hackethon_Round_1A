@@ -40,8 +40,8 @@ ThinkPDF is a sophisticated pipeline that combines **OCR**, **deep learning**, a
 
 ## 🚀 How to Run
 1. **Clone the Repo**:
-   ```bash
-  https://github.com/upadhyayravi023/Adobe_Hackethon_Round_1A.git
+   ```bash  https://github.com/upadhyayravi023/Adobe_Hackethon_Round_1A.git
+ 
    ```
 2. **Build the Docker Image**:
    ```bash
